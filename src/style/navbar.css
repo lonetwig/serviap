@@ -1,0 +1,45 @@
+.navbar{
+    background: var(--color2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 53px;
+}
+
+.navbar>div>a{
+    color: var(--color1);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.navbar>div>a>div{
+    font-size: 1rem;
+    padding: 15px 20px;
+}
+
+.navbar>div>a>div:hover{
+    background-color: var(--color1);
+    color:var(--color2)
+}
+
+.navbar>div:nth-child(1){
+    display: flex;
+}
+
+.topLogo{
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 24px 25px 0px 25px;
+    height: 80px;
+    color: var(--color2);
+    background: var(--color1);
+}
+
+@media only screen and (min-width:700px){
+    .topLogo{
+    font-size: 5rem;
+    padding: 0px 60px ;
+    }
+    
+}
