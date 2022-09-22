@@ -3,7 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: 53px;
+    max-height: 49px;
+    user-select: none;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid var(--color1);
+    width: 100%;
+    z-index: 1000000000000;
 }
 
 .navbar>div>a{
@@ -16,6 +22,8 @@
 .navbar>div>a>div{
     font-size: 1rem;
     padding: 15px 20px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .navbar>div>a>div:hover{
@@ -28,18 +36,29 @@
 }
 
 .topLogo{
+    height: 120px;
+    background: var(--color1);
+    user-select: none;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.topLogo h1{
     font-weight: 900;
     font-size: 3rem;
-    padding: 24px 25px 0px 25px;
-    height: 80px;
     color: var(--color2);
-    background: var(--color1);
+}
+
+article{
+    height:49px
 }
 
 @media only screen and (min-width:700px){
+    .topLogo h1{
+        font-size: 5rem;
+    }
     .topLogo{
-    font-size: 5rem;
-    padding: 0px 60px ;
+        padding-left: 60px;
     }
     
 }

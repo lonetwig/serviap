@@ -1,5 +1,5 @@
 .full{
-    padding: 25px;
+    padding: 15px 25px;
     background: var(--color1);
     min-height: 765px;
     position: relative;
@@ -25,6 +25,7 @@
     position: absolute;
     z-index: 100000;
     right: 20px;
+    top: 10px;
 }
 
 .selector{
@@ -43,9 +44,10 @@
 .overlay{
     background: linear-gradient(var(--color5),rgba(0,0,0,0));
     height: 500px;
-    width:100%;
     position: absolute;
-    top: 150px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     mix-blend-mode: multiply;
     z-index: 10000;
 }
@@ -55,6 +57,7 @@
     position: relative;
     z-index: 1000;
     overflow-wrap: break-word;
+    margin-top: 5px;
 }
 
 .title{
@@ -93,7 +96,7 @@
     }
 
     .full img{
-        top: 22px;
+        top: 30px;
         right: 0px !important;
     }
 

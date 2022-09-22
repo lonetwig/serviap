@@ -7,7 +7,7 @@ const text=[
         text1W:'350px',
         text2W:'450px',
         img:'img1',
-        iR:'-400',
+        iR:'-260',
         titleResize:false,
         opacity:1
     },
@@ -62,10 +62,10 @@ const text=[
     {
         title:'CONSEIL, FORMATION & GESTION',
         text1:"La formation au centre d'affaire Serviap.",
-        text2:"La formation constitue une des clés de réussite des sociétés désirant développer davantage la compétence de leurs ressources humaines. Dans ce contexte Serviap vous propose une série de formations de haut niveau, variées et actualisées, pour répondre au besoin accru des entreprises sur les standards qualité ou les thèmes qui leur sont associés. Toutes les formations sont réalisées par des formateurs compétents, expérimentés, des spécialistes, provenant de notre organisme Serviap, et aussi en partenariat avec des organismes nationaux et internationaux reconnus et approuvés. Pour tout cycle de formation, des supports de formation sont fournis aux participants, un système d'évaluation continue est effectué, et des études de cas pratiques sont proposées. À l'issue de ces formations, des attestations, diplômes sont délivrés aux participants. Les stages de formation sont ouverts à toute personne ou groupes de personnes intéressées. Elles sont réalisées, selon la demande, en inter ou intra-entreprises.",
+        text2:"La formation constitue une des clés de réussite des sociétés désirant développer davantage la compétence de leurs ressources humaines. Dans ce contexte Serviap vous propose une série de formations de haut niveau, variées et actualisées, pour répondre au besoin accru des entreprises sur les standards qualité ou les thèmes qui leur sont associés. Toutes les formations sont réalisées par des formateurs compétents, expérimentés, des spécialistes, provenant de notre organisme Serviap, et aussi en partenariat avec des organismes nationaux et internationaux reconnus et approuvés. Pour tout cycle de formation, des supports de formation sont fournis aux participants, un système d'évaluation continue est effectué, et des études de cas pratiques sont proposées. À l'issue de ces formations, des attestations, diplômes sont délivrés aux participants. Les stages de formation sont ouverts à toute personne ou groupes de personnes intéressées. Elles sont réalisées, selon la demande, en inter ou intra-entreprises. /n Les conseils sont présents tout au long de la vie de votre entreprise de sa création à sa radiation. Serviap met un point d'honneur à vous suivre dans chacune des étapes importantes de la vie de votre société : /n Business Plan /n Accompagnement bancaire /n Suivi dans les investissements personnels (immobilier, assurance vie, …) ",
         titleW:'1000px',
         text1W:'1100px',
-        text2W:'1100px',
+        text2W:'1220px',
         img:'img6',
         iR:'-100',
         titleResize:true,
@@ -87,3 +87,47 @@ const text=[
 ]
 
 export default text
+
+export const midPageText={
+    title:"Constitution d'entreprise",
+    text1:"Une équipe professionnelle à votre service pour donner vie à vos rêve et créer votre entreprise.",
+    text2:"Que vous serez domiciliés chez nous ou non, résidents au Maroc ou non, notre centre d'affaires la résistance vous facilite la création de votre société, nos experts sont à votre disposition pour le choix de la forme juridique la plus adéquate et vous accompagne sur place ou à distance tout au long de la procédure, quelle que soit la taille de votre entreprise et quel que soit le secteur de votre activité. Tout commence par l'obtention du certificat négatif ; obtenez le nom de votre nouvelle société sans frais."
+}
+
+export const packs=[
+    {
+        title:'Pack Essentiel',
+        text1:"L'essentiel pour vous décharger de vos obligations légales.",
+        price:'200',
+        text2:"La compabilité /n Les choix fiscaux(IR-IS,TVA...) /n Les teledéclarations fiscales /n Les teledéclarations sociales /n La réalisation des comptes annuels /n La réalisation de la liasse fiscale",
+        choice:'a'
+    },
+    {
+        title:'Pack Maîtrise',
+        text1:"La maîtrise de vos chiffres pour analyser efficacement votre présent.",
+        price:'300',
+        text2:"La compabilité /n Les choix fiscaux(IR-IS,TVA...) /n Les teledéclarations fiscales /n Les teledéclarations sociales /n La réalisation des comptes annuels /n La réalisation de la liasse fiscale /n La réalisation de vos situations intermédiaires /n L'analyse de la trésorerie",
+        choice:'b'
+    },
+    {
+        title:'Pack Pilotage',
+        text1:"Le pilotage de votre activité pour anticiper er prévoir l'avenir.",
+        price:'500',
+        text2:"La compabilité /n Les choix fiscaux(IR-IS,TVA...) /n Les teledéclarations fiscales /n Les teledéclarations sociales /n La réalisation des comptes annuels /n La réalisation de la liasse fiscale /n La réalisation de vos situations intermédiaires /n L'analyse de la trésorerie /n Le pilotage de votre activité pour anticiper et prévoir l'avenir /n L'analyse de la trésorerie",
+        choice:'c'
+    },
+    {
+        title:'Pack Éco',
+        text1:"Le moins cher.",
+        price:'500',
+        text2:"Un travail collaboratif avec le cabinet qui inclut, bilan, déclarations fiscales et sociales, déclaration RSI /n Collaborateur dédié /n Logiciel dernière génération avec synchronisation bancaire /n Tableau de bord /n La réalisation des comptes annuels /n Assistance et conseils compris",
+        choice:'d'
+    },
+    {
+        title:'Pack Création',
+        text1:"Créer votre entreprise maintenant.",
+        price:'4000',
+        text2:"Création de l'entreprise Clés en main (Hors Frais de création) /n Domiciliation de (24 Mois) /n Business Plan sur 3 ans et Plan de trésorerie /n Conseil et accompagnement pendant la phase de lancement de votre projet /n Calendrier Fiscal Annuel Gratuit /n Conseil sur la Fiscalité de votre entreprise /n Conseil sur la Comptabilité de votre entreprise /n Conseil dans le droit du travail et le recrutement de vos salariés /n 3 mois de comptabilité gratuite /n Création de logo gratuite /n Carte visite gratuit /n Cachet gratuit ",
+        choice:'e'
+    },
+]

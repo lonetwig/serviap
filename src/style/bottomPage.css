@@ -1,0 +1,109 @@
+.bottomPage{
+    background: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: 110px 110px ;
+    max-width: 80%;
+    position: relative;
+    z-index: 1000;
+}
+
+
+.options>div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background: var(--color3);
+    border: 2px solid var(--color1);
+    border-radius: 10px;
+    color: var(--color1);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 10px 10px 0px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.choice{
+    background: var(--color1) !important;
+    color: var(--color3) !important;
+}
+
+.pack{
+    background: var(--color1);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width:380px;
+    max-width: 80%;
+    height: 100%;
+    position: relative;
+    z-index: 1000;
+}
+
+.pack h1,.pack h3{
+    color:var(--color3)
+}
+
+.pack h1{
+    font-size: 3rem;
+}
+
+.pack h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.price{
+    width: 100%;
+    text-align: center;
+}
+
+.price p{
+    font-size: 1rem;
+    color: var(--color2);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+
+.price h1{
+    color: var(--color2);
+}
+
+.pack>p{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color3);
+    margin-top: 5px;
+}
+
+.bottomPage img{
+    position: absolute;
+    top: 0;
+    width: 1600px;
+}
+
+@media only screen and (min-width:700px){
+    .options{
+        display: inline-block;
+    }
+    .bottomPage{
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        
+    }
+}

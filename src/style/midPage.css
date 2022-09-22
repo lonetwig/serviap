@@ -1,0 +1,33 @@
+.midPage{
+    background: var(--color2);
+    padding: 25px;
+    position: relative;
+    min-height: 518px;
+}
+
+.midPage p{
+    color: var(--color1);
+}
+
+.midPage>div>p:nth-child(2){
+    max-width: 550px;
+}
+
+.midPage>div>p:nth-child(3){
+    max-width: 550px;
+    margin-top: 10px;
+}
+
+.midPage img{
+    position: absolute;
+    top: 0px;
+    right: -340px;
+    height: 530px;
+
+}
+
+@media only screen and (min-width:700px){
+    .midPage img{
+        right: 0px;
+    }
+}

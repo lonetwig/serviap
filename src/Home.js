@@ -32,19 +32,9 @@ export default function Home(props){
     }
   }
 
-//text border---------------------------------------------
-
-  const comb=[0,1,-1,2,-2,3,-3,4,-4]
-  let textBorder=''
-  for(let i=0;i<comb.length;i++){
-    comb.forEach(comb1=>{
-      textBorder+=comb[i]+'px '+comb1+'px var(--color1),'
-    })
-  }
-  textBorder=textBorder.substring(0,textBorder.length-1)
-  
 //styles-------------------------------------------------
 
+    const{textBorder}=props
     const titleStyle={
       'maxWidth':p.titleW,
       'textShadow':(textBorder),
@@ -63,11 +53,10 @@ export default function Home(props){
       'opacity':p.opacity
     }
 
-    let right=p.iR
     const imageStyle={
-      transform:'translateX('+p.imgPos+'px)',
+      right:p.iR+'px',
+      'transform':'translateX('+p.imgPos+'px)',
       opacity:p.opacity,
-      right:right
     }
 
 
@@ -75,7 +64,8 @@ export default function Home(props){
 //text2-------------------------------------------------
 
     const text2=p.text2.split('/n').map(text=>(
-      <p className='text2' key={p.text2.indexOf(text)} style={text2Style}>{text}</p>)
+      <p className='text2' key={p.text2.indexOf(text)} style={text2Style}>
+        {p.text2.split('/n').indexOf(text)===0?text:'⚬'+text}</p>)
     )
 
   return (
@@ -88,12 +78,13 @@ export default function Home(props){
           <p className='text1' style={text1Style}>{p.text1}</p>
           {text2}
         </div>
+        
+        <div className='overlay'></div>
 
         <div className='container' onClick={changeHome} style={opacity}></div>
 
       </div>
 
-      <div className='overlay'></div>
 
     </>
   )
