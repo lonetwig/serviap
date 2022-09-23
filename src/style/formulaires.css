@@ -1,0 +1,76 @@
+.formulaires{
+    position: relative;
+    min-height: 570px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulaires>article{
+    display: grid;
+    grid-template-columns:100%;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding: 50px 20px;
+    position: inherit;
+    z-index: 100000;
+}
+
+.formulaires>article>div{
+    background: var(--color1);
+    border: 1px solid var(--color5);
+    border-radius: 20px;
+    min-height: 450px;
+    box-shadow: 0px 0px 15px var(--color5);
+}
+
+.formulaires>article>div>h1{
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.formulaires>article>div>a{
+    text-decoration: none;
+}
+
+.formulaires>article>div>a>div{
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    text-align: start;
+    border-top: 1px solid var(--color5);
+    color: var(--color4);
+}
+
+.formulaires>article>div>a>div:hover{
+    color: var(--color5);
+}
+
+@media only screen and (min-width:1500px){
+    .formulaires>article{
+
+        grid-template-columns: repeat(4, 340px);
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1500px){
+    .formulaires>article{
+        grid-template-columns: repeat(2, 340px);
+
+    }
+}
+
+@media only screen and (min-width:380px) and (max-width:800px){
+    .formulaires>article{
+        grid-template-columns: 340px;
+
+    }
+}
+
+
+
+
+

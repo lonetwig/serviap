@@ -7,10 +7,10 @@ html{
     box-sizing: border-box;
     margin: 0;
     --color1:white;
-    --color2:hsl(0, 52%, 58%);
-    --color3:hsl(215, 47%, 46%);
-    --color4:hsl(217, 75%, 69%);
-    --color5:hsl(218, 75%, 85%);
+    --color2:hsl(0, 55%, 60%);
+    --color3:hsl(215, 40%, 45%);
+    --color4:hsl(215, 55%, 60%);
+    --color5:hsl(215, 75%, 85%);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }

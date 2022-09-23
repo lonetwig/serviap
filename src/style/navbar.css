@@ -16,11 +16,10 @@
     color: var(--color1);
     text-decoration: none;
     cursor: pointer;
-    font-weight: 700;
 }
 
 .navbar>div>a>div{
-    font-size: 1rem;
+    font-weight: 700;
     padding: 15px 20px;
     overflow: hidden;
     white-space: nowrap;
@@ -36,7 +35,7 @@
 }
 
 .topLogo{
-    height: 120px;
+    height: 110px;
     background: var(--color1);
     user-select: none;
     display: flex;
@@ -49,8 +48,33 @@
     color: var(--color2);
 }
 
-article{
+.choosed{
+    background-color: var(--color1) !important;
+    color:var(--color2) !important
+}
+
+.topSpace{
     height:49px
+}
+
+.menu{
+    display: block;
+    width: 100%;
+    top:49px ;
+    background: var(--color1);
+    position: fixed;
+    z-index: 1000000;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a>div{
+    padding: 8px ;
+    color: var(--color2);
+    font-weight: 700;
+    border-bottom: 1px solid var(--color2);
 }
 
 @media only screen and (min-width:700px){
@@ -60,5 +84,10 @@ article{
     .topLogo{
         padding-left: 60px;
     }
+
+    .menu{
+        display: none;
+    }
     
 }
+

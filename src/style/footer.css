@@ -1,0 +1,58 @@
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:var(--color1);
+    padding:20px 20px 40px 20px;
+}
+
+footer h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.contact h2{
+    font-size: 1.4rem; 
+}
+
+.contact input,.contact textarea{
+    background: var(--color3);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    margin-top: 10px;
+}
+
+.contact textarea{
+    height: 110px;
+}
+
+.contact input::placeholder,.contact input::placeholder{
+    opacity: .5;
+}
+
+.cordonnance{
+    padding: 5px;
+    border-bottom: 2px solid var(--color1);
+}
+
+.socialMedia{
+    user-select: none;
+}
+
+.topBorder{
+    border-top: 2px solid var(--color1);
+    width: min(96%,400px);
+    height: 5px;
+    display: inline-block;
+}
+
+.socialMedia,.cordonnance,.contact{
+    position: relative;
+    z-index: 100;
+}

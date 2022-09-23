@@ -1,11 +1,17 @@
-.bottomPage{
+.fullBottom{
     background: var(--color3);
+    position: relative;
+    overflow: hidden;
+}
+
+.bottomPage{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0px;
-    position: relative;
-}
+    padding: 20px 0px;
+    border-top: 2px solid var(--color1);
+}    
+
 
 .options{
     display: grid;
@@ -13,6 +19,7 @@
     max-width: 80%;
     position: relative;
     z-index: 1000;
+    margin-bottom: 10px;
 }
 
 
@@ -76,8 +83,6 @@
     font-size: 1.2rem;
 }
 
-
-
 .price h1{
     color: var(--color2);
 }
@@ -104,6 +109,7 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: row;
-        
+        padding: 100px 0px 20px 0px;
     }
 }
+

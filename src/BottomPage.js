@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import {packs} from './text'
+import Footer from './Footer'
 import './style/bottomPage.css'
+
 
 export default function BottomPage() {
 
@@ -21,11 +23,12 @@ export default function BottomPage() {
   //text2-------------------------------------------------
 
   const text2=pack.text2.split('/n').map(text=>(
-    <p key={pack.text2.indexOf(text)}>{'⚬ '+text}</p>))
+    <p key={pack.text2.split('/n').indexOf(text)}>{'⚬ '+text}</p>))
 
-    
+
   return (
-    <div className='bottomPage'>
+    <div className='fullBottom'>
+      <div className='bottomPage'>
         <img src={require( './img/imgBottom.png')}></img>
         <div className='options'>
             <div className={choice.a} id='0' onClick={(e)=>choose(e)}>Pack Essentiel</div>
@@ -45,7 +48,9 @@ export default function BottomPage() {
           </div>
           {text2}
         </div>
+      </div>
 
+      <Footer/>
     </div>
   )
 }

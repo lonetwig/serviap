@@ -47,11 +47,12 @@ function textBorder(color){
 
     {/* mid of page---------------------------------------------------- */}
 
-        <MidPage textBorder={textBorder('color2')}/>
+      <MidPage textBorder={textBorder('color2')}/>
 
-    {/* bottom of page---------------------------------------------------- */}
+    {/* bottom of page-------------------------------------------------- */}
 
-        <BottomPage/>
+      <BottomPage/>
+      
     </>
   )
 }

@@ -1,0 +1,86 @@
+.certificat{
+    position: relative;
+    min-height: 570px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+
+}
+
+.certificat h1{
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.certificat h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.certificat article{
+    background: var(--color1);
+    border: 1px solid var(--color5);
+    border-radius: 20px;
+    min-height: 450px;
+    box-shadow: 0px 0px 15px var(--color5);
+    position: inherit;
+    z-index: 100000;
+    padding: 20px;
+}
+
+.certificat>article>div{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.certificat>article>div>div{
+    padding: 20px;
+    border-top: 1px solid var(--color5);
+    width: 100%;
+}
+
+.certificat>article>div>div:nth-child(1){
+    border-right: 1px solid var(--color5);
+}
+
+.certificat h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color4);
+    margin: 4px 0px;
+}
+
+.certificat input{
+    width: 100%;
+    border: 1px solid var(--color5);
+    color: var(--color4);
+    outline: none;
+    height: 30px;
+    padding: 0px 6px;
+}
+
+.certificat input::placeholder{
+    color: var(--color4);
+    opacity: 50%;
+}
+
+.file{
+    max-width: 200px !important;
+}
+
+@media only screen and (min-width:700px){
+    .certificat>article>div{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .certificat h1{
+        width: 100%;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

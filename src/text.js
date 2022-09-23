@@ -88,11 +88,15 @@ const text=[
 
 export default text
 
+//----------------------------------------------------------------------------------------
+
 export const midPageText={
     title:"Constitution d'entreprise",
     text1:"Une équipe professionnelle à votre service pour donner vie à vos rêve et créer votre entreprise.",
     text2:"Que vous serez domiciliés chez nous ou non, résidents au Maroc ou non, notre centre d'affaires la résistance vous facilite la création de votre société, nos experts sont à votre disposition pour le choix de la forme juridique la plus adéquate et vous accompagne sur place ou à distance tout au long de la procédure, quelle que soit la taille de votre entreprise et quel que soit le secteur de votre activité. Tout commence par l'obtention du certificat négatif ; obtenez le nom de votre nouvelle société sans frais."
 }
+
+//----------------------------------------------------------------------------------------
 
 export const packs=[
     {
@@ -129,5 +133,27 @@ export const packs=[
         price:'4000',
         text2:"Création de l'entreprise Clés en main (Hors Frais de création) /n Domiciliation de (24 Mois) /n Business Plan sur 3 ans et Plan de trésorerie /n Conseil et accompagnement pendant la phase de lancement de votre projet /n Calendrier Fiscal Annuel Gratuit /n Conseil sur la Fiscalité de votre entreprise /n Conseil sur la Comptabilité de votre entreprise /n Conseil dans le droit du travail et le recrutement de vos salariés /n 3 mois de comptabilité gratuite /n Création de logo gratuite /n Carte visite gratuit /n Cachet gratuit ",
         choice:'e'
+    },
+
+]
+
+//----------------------------------------------------------------------------------------
+
+export const formulaires=[
+    {
+        title:'Demande Taxe professionelle ',
+        text:"Demande d'attestation d'inscription à la taxe professionnelle (TP) /href http://chbani.com/wp-content/uploads/2014/10/FCH_140.pdf /n Demande d'attestation de régularité fiscale /href https://www.finances.gov.ma/Publication/dgi/2012/5572_aac_270f_12i.pdf /n Demande d'attestation de catégorisation /href http://chbani.com/wp-content/uploads/2014/10/FCH_120.pdf /n Demande d'attestation de début d'activité /href http://chbani.com/wp-content/uploads/2014/10/FCH_123.pdf /n Demande d'attestation de radiation de la taxe professionnelle /href http://chbani.com/wp-content/uploads/2014/10/FCH_110.pdf"
+    },
+    {
+        title:'Déclaration Taxe professionelle',
+        text:"Taxe de services communaux: Déclaration d'inscription /href http://chbani.com/wp-content/uploads/2014/10/FCH_142.pdf /n Taxe de services communaux : déclaratio	des éléments imposables /href https://rabat.eregulations.org/media/Formulaire%20de%20d%C3%A9claration%20de%20la%20TP-TSC.pdf /n Déclaration	de transfert du domicile fiscal, du siège social ou du principal établissement /href https://www.finances.gov.ma/Publication/dgi/2012/4240_adc_140f_12i.pdf "
+    },
+    {
+        title:'Demande Droits de timbre',
+        text:"Demande de consultation fiscale préalable /href /n Déclaration rectificative -Demande de l'état des irrégularités constatées par l'administration /href /n Réclamation /href https://www.finances.gov.ma/Publication/dgi/2012/7996_ajc_200f_11i.pdf "
+    },
+    {
+        title:'Déclaration Droits de timbre',
+        text:"Déclaration réctificative /href https://www.fiscamaroc.com/documents/adc200f-16i_00f36.pdf /n Déclaration rectificative (Article 247-XXVIII du CGI) /href https://www.tax.gov.ma/wps/wcm/connect/6c070db6-7758-4092-b1d7-eca9d985cc47/adc_210b_20i.pdf?MOD=AJPERES /n Déclaration des annonces publicitaires sur écran /href https://www.fiscamaroc.com/documents/adc300f-18i_7f8d0.pdf  /n Déclaration des droits de timbre - droits fixes et timbre de quittance /href https://tax.gov.ma/wps/wcm/connect/7c833f11-c38e-42a3-bfe5-0999d2865868/DT+++++++OK++.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7c833f11-c38e-42a3-bfe5-0999d2865868-l3O7Q.O /n Taxe professionnelle-taxe de services communaux: déclaration de chômage d'établissement /href http://chbani.com/wp-content/uploads/2014/10/FCH_145.pdf "
     },
 ]
