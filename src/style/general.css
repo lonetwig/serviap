@@ -11,11 +11,18 @@ input,textarea{
 *{
     box-sizing: border-box;
     margin: 0;
-    --color1:white;
+    /* --color1:white;
     --color2:hsl(0, 55%, 60%);
     --color3:hsl(215, 40%, 45%);
     --color4:hsl(215, 55%, 60%);
-    --color5:hsl(215, 75%, 85%);
+    --color5:hsl(215, 75%, 85%); */
+
+    --color1:white;
+    --color2:hsl(0, 55%, 60%);
+    --color3:hsl(215, 0%, 25%);
+    --color4:hsl(215, 0%, 50%);
+    --color5:hsl(0, 0%, 90%);
+    
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
