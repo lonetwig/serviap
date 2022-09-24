@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './style/topPage.css'
 
 
@@ -59,6 +59,19 @@ export default function Home(props){
       opacity:p.opacity,
     }
 
+    // let overlay={ 'background':' linear-gradient(to right,'}
+    // const cr=[1,5]
+    // cr.forEach(n=>{
+    //   for(let i=0;i<n;i++){
+    //     if(n===cr[0]){
+    //       overlay.background+='rgba(0,0,0,0),'
+    //     }else if(n===cr[1]){
+    //       overlay.background+='var(--color4),'
+    //     }
+    //   }
+    // })
+
+    // overlay.background+='var(--color2))'
 
 
 //text2-------------------------------------------------

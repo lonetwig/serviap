@@ -46,7 +46,7 @@
 }
 
 .formulaires>article>div>a>div:hover{
-    color: var(--color5);
+    opacity: .5;
 }
 
 @media only screen and (min-width:1500px){
