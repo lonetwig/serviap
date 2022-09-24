@@ -1,0 +1,79 @@
+.propos{
+    position: relative;
+}
+
+.propos article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: var(--color3);
+    text-align: center;
+}
+
+.propos h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.propos h2{
+    font-size: 1.4rem;
+}
+
+.propos p{
+    font-size: 1.2rem;
+    color: var(--color4);
+}
+
+.partenaires img{
+    height: 50px;
+    margin: 40px 20px;
+}
+
+.about{
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 10px 0px 40px 0px;
+    border-bottom: 1px solid var(--color5);
+}
+
+
+.propos>article>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews,.maintenance{
+    border-bottom: 1px solid var(--color5);
+    padding:30px 0px ;
+    flex-direction: column !important;
+}
+
+.reviews>div,.maintenance>div{
+    max-width: 300px;
+    margin: 20px ;
+}
+
+.reviews{
+    border: none;
+}
+
+.reviews img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid var(--color5);
+}
+
+@media only screen and (min-width:700px){
+
+    .reviews>div,.maintenance>div{
+        max-width: 250px;
+        margin: 20px 50px;
+    }
+
+    .reviews,.maintenance{
+        flex-direction: row !important;
+    }
+}

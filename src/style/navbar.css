@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: 49px;
-    user-select: none;
+    height: 49px;
     position: fixed;
     top: 0;
     border-bottom: 2px solid var(--color1);
@@ -41,6 +40,7 @@
     display: flex;
     align-items: center;
     padding-left: 25px;
+
 }
 .topLogo h1{
     font-weight: 900;

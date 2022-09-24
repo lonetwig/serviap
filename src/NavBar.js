@@ -17,13 +17,17 @@ useEffect(() => {
 
 //route selected------------------------------------------
 
-const[route,setRoute]=useState({a:'choosed',b:'',c:'',d:''})
+const empty={home:'',formulaires:'',certificat:'',apropos:''}
+const[route,setRoute]=useState(empty)
 function choose(e){
   const id=e.target.id
-  setRoute({a:'',b:'',c:'',d:'',[id]:'choosed'})
+  setRoute({...empty,[id]:'choosed'})
   window.scrollTo(0, 0)
-
 }
+useEffect(()=>{
+    const param=window.location.href.split('/')[3]
+    setRoute({...empty,[param?param:'home']:'choosed'})
+},[])
 
 //menu(for mobile)-------------------------------------
 
@@ -45,19 +49,19 @@ function hideMenu(){
 let burgerMenu={
     'scale':'3',
     'color':'var(--color1)',
-    'margin-left':'20px'
+    'marginLeft':'20px'
 }
 
 //all routes------------------------------------------
 
 const allRoutes=<>
-    <Link to='/'><div className={route.a} onClick={(e)=>choose(e)} id='a'>Acceuil</div></Link>
-    <Link to='/formulaires-fiscaux'><div  className={route.b} onClick={(e)=>choose(e)} id='b' >Formulaires fiscaux</div></Link>
-    <Link to='/certificat-néfatif'><div className={route.c} onClick={(e)=>choose(e)} id='c'>Certificat négatif</div></Link>
-    <Link to='/a-propos'><div className={route.d} onClick={(e)=>choose(e)} id='d'>A propos</div></Link>
+    <Link to='/'><div className={route.home} onClick={(e)=>choose(e)} id='home'>Acceuil</div></Link>
+    <Link to='/formulaires'><div  className={route.formulaires} onClick={(e)=>choose(e)} id='formulaires' >Formulaires fiscaux</div></Link>
+    <Link to='/certificat'><div className={route.certificat} onClick={(e)=>choose(e)} id='certificat'>Certificat négatif</div></Link>
+    <Link to='/apropos'><div className={route.apropos} onClick={(e)=>choose(e)} id='apropos'>A propos</div></Link>
 </>
 
-return (
+return ( 
 <>
     <div className='navbar'>
         {windowWidth>700&&
@@ -71,7 +75,7 @@ return (
         </div>}
 
         <div>
-            <Link to='/connexion'><div>Connexion</div></Link>
+            <Link to='/connexion'><div></div></Link>
         </div>
         
     </div>

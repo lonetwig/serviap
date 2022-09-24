@@ -60,12 +60,12 @@ const text=[
         opacity:0
     },
     {
-        title:'CONSEIL, FORMATION & GESTION',
+        title:'FORMATION & GESTION',
         text1:"La formation au centre d'affaire Serviap.",
-        text2:"La formation constitue une des clés de réussite des sociétés désirant développer davantage la compétence de leurs ressources humaines. Dans ce contexte Serviap vous propose une série de formations de haut niveau, variées et actualisées, pour répondre au besoin accru des entreprises sur les standards qualité ou les thèmes qui leur sont associés. Toutes les formations sont réalisées par des formateurs compétents, expérimentés, des spécialistes, provenant de notre organisme Serviap, et aussi en partenariat avec des organismes nationaux et internationaux reconnus et approuvés. Pour tout cycle de formation, des supports de formation sont fournis aux participants, un système d'évaluation continue est effectué, et des études de cas pratiques sont proposées. À l'issue de ces formations, des attestations, diplômes sont délivrés aux participants. Les stages de formation sont ouverts à toute personne ou groupes de personnes intéressées. Elles sont réalisées, selon la demande, en inter ou intra-entreprises. /n Les conseils sont présents tout au long de la vie de votre entreprise de sa création à sa radiation. Serviap met un point d'honneur à vous suivre dans chacune des étapes importantes de la vie de votre société : /n Business Plan /n Accompagnement bancaire /n Suivi dans les investissements personnels (immobilier, assurance vie, …) ",
+        text2:"La formation constitue une des clés de réussite des sociétés désirant développer davantage la compétence de leurs ressources humaines. Dans ce contexte Serviap vous propose une série de formations de haut niveau, variées et actualisées, pour répondre au besoin accru des entreprises sur les standards qualité ou les thèmes qui leur sont associés. Toutes les formations sont réalisées par des formateurs compétents, expérimentés, des spécialistes, provenant de notre organisme Serviap, et aussi en partenariat avec des organismes nationaux et internationaux reconnus et approuvés. Pour tout cycle de formation, des supports de formation sont fournis aux participants, un système d'évaluation continue est effectué, et des études de cas pratiques sont proposées. À l'issue de ces formations, des attestations, diplômes sont délivrés aux participants. Les stages de formation sont ouverts à toute personne ou groupes de personnes intéressées. Elles sont réalisées, selon la demande, en inter ou intra-entreprises.",
         titleW:'1000px',
-        text1W:'1100px',
-        text2W:'1220px',
+        text1W:'1000px',
+        text2W:'1100px',
         img:'img6',
         iR:'-100',
         titleResize:true,
@@ -77,7 +77,7 @@ const text=[
         text2:"Avez-vous des questions et êtes-vous à la recherche des réponses juridiques complètes ? Que vous soyez des particuliers ou des professionnels, notre centre d'affaires Serviap est là pour vous assister et vous orienter dans toutes vos démarches juridiques et donner des conseils juridiques à la pointe./n Missions juridiques courantes de la vie de la société./n Missions juridiques extraordinaires./n Conseils en droit des affaires./n Missions juridiques d'accompagnement création d'entreprise./n Et autres. ..",
         titleW:'1000px',
         text1W:'1100px',
-        text2W:'1100px',
+        text2W:'1000px',
         img:'img7',
         iR:'-100',
         titleResize:false,
@@ -91,9 +91,11 @@ export default text
 //----------------------------------------------------------------------------------------
 
 export const midPageText={
-    title:"Constitution d'entreprise",
-    text1:"Une équipe professionnelle à votre service pour donner vie à vos rêve et créer votre entreprise.",
-    text2:"Que vous serez domiciliés chez nous ou non, résidents au Maroc ou non, notre centre d'affaires la résistance vous facilite la création de votre société, nos experts sont à votre disposition pour le choix de la forme juridique la plus adéquate et vous accompagne sur place ou à distance tout au long de la procédure, quelle que soit la taille de votre entreprise et quel que soit le secteur de votre activité. Tout commence par l'obtention du certificat négatif ; obtenez le nom de votre nouvelle société sans frais."
+    title:"SERVIAP S'OCCUPE DE TOUTE VOTRE GESTION",
+    text1:"Les conseils sont présents tout au long de la vie de votre entreprise de sa création à sa radiation. Serviap met un point d'honneur à vous suivre dans chacune des étapes importantes de la vie de votre société:",
+    text2:"⚬ Suivi dans les investissements personnels (immobilier, assurance vie, …) ",
+    text3:"⚬ Accompagnement bancaire ",
+    text4:"⚬ Business Plan "
 }
 
 //----------------------------------------------------------------------------------------
@@ -157,3 +159,34 @@ export const formulaires=[
         text:"Déclaration réctificative /href https://www.fiscamaroc.com/documents/adc200f-16i_00f36.pdf /n Déclaration rectificative (Article 247-XXVIII du CGI) /href https://www.tax.gov.ma/wps/wcm/connect/6c070db6-7758-4092-b1d7-eca9d985cc47/adc_210b_20i.pdf?MOD=AJPERES /n Déclaration des annonces publicitaires sur écran /href https://www.fiscamaroc.com/documents/adc300f-18i_7f8d0.pdf  /n Déclaration des droits de timbre - droits fixes et timbre de quittance /href https://tax.gov.ma/wps/wcm/connect/7c833f11-c38e-42a3-bfe5-0999d2865868/DT+++++++OK++.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7c833f11-c38e-42a3-bfe5-0999d2865868-l3O7Q.O /n Taxe professionnelle-taxe de services communaux: déclaration de chômage d'établissement /href http://chbani.com/wp-content/uploads/2014/10/FCH_145.pdf "
     },
 ]
+
+
+//----------------------------------------------------------------------------------------
+ export const propos=[
+        "SERVIAP, un centre d'affaire qui vous propose une sélection de services dans un pack complet : domiciliation, création de votre entreprise, espace de travail, gestion comptable…"
+    ,
+        "Notre politique consiste à informatiser toute notre gestion, la consommation de papier a baissé de 70%. Zéro papier est notre objectif ultime."
+    ,
+    {
+        text1:"Nous travaillons avec des clients opérant dans différents domaines. De l'industrie, à l'agroalimentaire en passant par des agences de location, des cabinets dentaires ou d'avocat, nous satisfaisons nos clients par la qualité de nos services.",
+        text2:"Nous veillons à ce que nos services restent opérationels. Pour ce, notre politique client consiste au suivi permanent de la performance des entreprises de nos clients afin de garantir la survie de ces dernieres.",
+        text3:"Vous etes déjà notre client ou pas encore, besoin d'aide? N'hésitez pas de nous contacter au 05.22.20.91.24 info@serviap.ma."
+    },   
+    [
+        {
+            name:"Christan Poupon",
+            text1:"Ingénieur d'état",
+            text2:"Serviap est la meilleure agence pour son service et sa qualité de prestation, Je vous la conseille."
+        },
+        {
+            name:"Taylor Madison",
+            text1:"Teacher",
+            text2:"Very accommodating and no issues which was great as we struggled a bit with the language. Very nice people. Highly recommend."
+        },
+        {
+            name:"Mustapha Ouardighi",
+            text1:"Directeur commecial",
+            text2:"Je fais affaire avec Serviap pendant déjà 3 ans excellant service et très bon prix. Un gros merci à toute l'équipe très sympathique en passant."
+        }
+    ]
+ ]

@@ -39,9 +39,9 @@ function textBorder(color){
         <div className='topLogo'><h1>SERVIAP</h1></div>
           <Routes>
             <Route path='/' element={<Home text={text} textBorder={textBorder('color1')}/>}/>
-            <Route path='/formulaires-fiscaux' element={<Formulaires/>}/>
-            <Route path='/certificat-néfatif' element={<Certificat/>}/>
-            <Route path='/a-propos' element={<Propos/>}/>
+            <Route path='/formulaires' element={<Formulaires/>}/>
+            <Route path='/certificat' element={<Certificat/>}/>
+            <Route path='/apropos' element={<Propos/>}/>
           </Routes>
       </div>
 

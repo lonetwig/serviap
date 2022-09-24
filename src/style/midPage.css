@@ -9,7 +9,13 @@
     color: var(--color1);
 }
 
-.midPage>div>p:nth-child(2){
+.midPage .title{
+    max-width: 800px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.midPage .text1{
     max-width: 550px;
 }
 
